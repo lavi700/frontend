@@ -6,7 +6,7 @@ export default function Home(){
     const [checked, setChecked] = React.useState(false)
 
     React.useEffect(() => {
-        setChecked(tue)
+        setChecked(true)
     },[])
 
     return (
