@@ -6,12 +6,12 @@ export default function Home(){
     const [checked, setChecked] = React.useState(false)
 
     React.useEffect(() => {
-        setChecked(true)
+        setChecked(tue)
     },[])
 
     return (
         <>
-        <h1>changwwwwwwwwwwwwwjjw</h1>
+        <h1>changwwwwwwwwwwwwwjjjjw</h1>
         <Collapse in={checked}
                 {...(checked ? {timeout: 1000} : {})}>
             <h1>Welcome to our Tools!</h1>
