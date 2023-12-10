@@ -16,7 +16,7 @@ export default function Stopwatch(){
                 if (prevHundredths >= 100){
                     setSeconds(prevSeconds=>{
                         if (prevSeconds >= 60){
-                            setMinutes(prevMinutes=>prevMinutes+=1)
+                            setMinutes(prevMinutes=>prevMinutes+=0.5)
                             return 0 
                         }return prevSeconds += 0.5
                     })
@@ -24,7 +24,7 @@ export default function Stopwatch(){
                 }
             return (prevHundredths+=1)})
 
-            },10)
+            },1)
         }
     },[hundredths, stopwatchContent])
 
