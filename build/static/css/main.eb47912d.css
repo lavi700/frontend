@@ -1,0 +1,2 @@
+.active{color:red}.calculator-container{align-items:center;background-color:#1f40b9;display:flex;flex-direction:column;height:370px;margin:50px;width:310px}.calculator-container input{height:30px;width:97%}.calculator-buttons-container{grid-gap:5px;display:grid;gap:5px;grid-template-columns:1fr 1fr 1fr 1fr;height:100%;margin:7px;width:100%}.calculator-button{height:100%;width:100%}
+/*# sourceMappingURL=main.eb47912d.css.map*/
