@@ -18,7 +18,7 @@ export default function Stopwatch(){
                         if (prevSeconds >= 60){
                             setMinutes(prevMinutes=>prevMinutes+=0.5)
                             return 0 
-                        }return prevSeconds += 0.5
+                        }return prevSeconds += 1
                     })
                     return 0
                 }
