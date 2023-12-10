@@ -11,6 +11,7 @@ export default function Home(){
 
     return (
         <>
+        <h1>yes</h1>
         <Collapse in={checked}
                 {...(checked ? {timeout: 1000} : {})}>
             <h1>Welcome to our Tools!</h1>
